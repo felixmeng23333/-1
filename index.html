@@ -1,0 +1,36 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>峥峥的食堂 · 单页</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/icon-180.png"><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="appbar"><div class="brand"><div class="logo">🍱</div><div class="title">峥峥的食堂（全部分类）</div></div></header>
+<main id="container"></main>
+<footer class="cartbar" id="cartbar" hidden><div><strong id="cart-count">0</strong> 件 · <strong id="cart-total">0❤️</strong></div><button id="btnCart" class="btn-primary">去下单</button></footer>
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-sheet">
+    <header class="drawer-head"><div>购物车</div><button id="btnCloseDrawer" class="btn-plain">✕</button></header>
+    <div id="cartList" class="cart-list"></div>
+    <div class="cart-bottom">
+      <textarea id="orderNotes" placeholder="下单备注（如：少油少盐、不要香菜）"></textarea>
+      <div class="cart-totals"><div>累计爱心 <span id="subtotal">0❤️</span></div><div class="bold">合计 <span id="grandTotal">0❤️</span></div></div>
+      <div class="actions"><button id="btnClear" class="btn-plain">清空</button><button id="btnPlace" class="btn-primary">去下单</button></div>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+</div>
+
+<!-- 下单方式选择弹窗 -->
+<div class="modal" id="orderModal" aria-hidden="true">
+  <div class="modal-backdrop" id="orderModalBackdrop"></div>
+  <div class="modal-sheet" role="dialog" aria-labelledby="orderModalTitle">
+    <div class="modal-title" id="orderModalTitle">选择下单方式</div>
+    <div class="modal-actions">
+      <button id="btnSms" class="btn-primary">短信（SMS）</button>
+      <button id="btnWeChat" class="btn-plain">复制微信模板</button>
+      <button id="btnEmail" class="btn-plain">邮件（mailto）</button>
+      <button id="closeOrderModal" class="btn-plain">取消</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body></html>
