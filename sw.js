@@ -1,5 +1,5 @@
 
-const CACHE='zz-onepage-v6';
+const CACHE='zz-onepage-v6-final';
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll([
     './','./index.html','./styles.css','./app.js','./data/menu.json','./data/cat_images.json','./manifest.webmanifest'

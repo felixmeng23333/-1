@@ -1,6 +1,9 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>峥峥的食堂 · 单页</title>
-<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/icon-180.png"><link rel="stylesheet" href="styles.css"></head>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="favicon-32.png" sizes="32x32">
+<link rel="stylesheet" href="styles.css"></head>
 <body>
 <header class="appbar"><div class="brand"><div class="logo">🍱</div><div class="title">峥峥的食堂（全部分类）</div></div></header>
 <main id="container"></main>
@@ -11,13 +14,11 @@
     <div id="cartList" class="cart-list"></div>
     <div class="cart-bottom">
       <textarea id="orderNotes" placeholder="下单备注（如：少油少盐、不要香菜）"></textarea>
-      <div class="cart-totals"><div>累计爱心 <span id="subtotal">0❤️</span></div><div class="bold">合计 <span id="grandTotal">0❤️</span></div></div>
       <div class="actions"><button id="btnClear" class="btn-plain">清空</button><button id="btnPlace" class="btn-primary">去下单</button></div>
     </div>
   </div>
   <div class="drawer-backdrop" id="drawerBackdrop"></div>
 </div>
-<!-- 下单方式选择弹窗 -->
 <div class="modal" id="orderModal" aria-hidden="true">
   <div class="modal-backdrop" id="orderModalBackdrop"></div>
   <div class="modal-sheet" role="dialog" aria-labelledby="orderModalTitle">

@@ -104,18 +104,62 @@
       ]
     },
     {
+      "id": "kf5",
+      "category": "老开封！",
+      "name": "包子",
+      "desc": "正宗老开封味儿，手工现包",
+      "hearts": 1,
+      "img": "images/kf5.jpg",
+      "options": [
+        {
+          "title": "口味（必选其一）",
+          "required": true,
+          "multiple": false,
+          "choices": [
+            {
+              "name": "麻辣豆腐"
+            },
+            {
+              "name": "韭菜鸡蛋粉条"
+            },
+            {
+              "name": "鑫哥专属肉馅"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kf6",
+      "category": "老开封！",
+      "name": "平平无奇蛋炒饭",
+      "desc": "简单却治愈，小家的幸福味道",
+      "hearts": 1,
+      "img": "images/kf6.jpg"
+    },
+    {
+      "id": "kf7",
+      "category": "老开封！",
+      "name": "红油虾鸡馄饨",
+      "desc": "香辣红油，鲜虾与鸡肉的绝妙搭配",
+      "hearts": 1,
+      "img": "images/kf7.jpg"
+    },
+    {
       "id": "m1",
       "category": "常规馍菜汤",
       "name": "番茄烩茄子",
       "desc": "家常口味，软糯入味",
-      "hearts": 1
+      "hearts": 1,
+      "img": "images/m1.jpg"
     },
     {
       "id": "m2",
       "category": "常规馍菜汤",
       "name": "干锅麻辣虾",
       "desc": "麻辣鲜香，虾肉弹嫩",
-      "hearts": 3
+      "hearts": 3,
+      "img": "images/m2.jpg"
     },
     {
       "id": "m3",
@@ -129,7 +173,8 @@
       "category": "常规馍菜汤",
       "name": "麻辣小龙虾",
       "desc": "夜宵灵魂，越吃越上头",
-      "hearts": 3
+      "hearts": 3,
+      "img": "images/cm5.jpg"
     },
     {
       "id": "m5",
@@ -220,6 +265,14 @@
       "hearts": 1
     },
     {
+      "id": "cool6",
+      "category": "爽口小凉菜",
+      "name": "凉拌藕片",
+      "desc": "爽脆藕片配秘制蒜辣汁，清爽开胃",
+      "hearts": 1,
+      "img": "images/cool6.jpg"
+    },
+    {
       "id": "rice1",
       "category": "吃米饭啦！",
       "name": "咖喱鸡",
@@ -278,6 +331,7 @@
       "name": "大盘鸡",
       "desc": "正宗西北大盘鸡，附带灵魂宽面",
       "hearts": 3,
+      "img": "images/spicy3.jpg",
       "options": [
         {
           "title": "主食（必选）",
@@ -306,7 +360,8 @@
       "category": "白人饭也是香香的",
       "name": "干巴面包夹牛油果酱",
       "desc": "很欧美！很健康！很干！",
-      "hearts": 1
+      "hearts": 1,
+      "img": "images/white2.jpg"
     },
     {
       "id": "white3",
@@ -395,44 +450,10 @@
     {
       "id": "drink4",
       "category": "饮料小食",
-      "name": "随便整点甜水买回家",
-      "desc": "今天就让糖分支撑爱情♥️",
-      "hearts": 1
-    },
-    {
-      "id": "junk1",
-      "category": "垃圾食品列表",
-      "name": "麦当劳",
-      "desc": "金拱门快乐套餐 🍟🍔",
-      "hearts": -1
-    },
-    {
-      "id": "junk2",
-      "category": "垃圾食品列表",
-      "name": "Wendy's",
-      "desc": "红头发妹妹的快乐堡 🍔",
-      "hearts": -1
-    },
-    {
-      "id": "junk3",
-      "category": "垃圾食品列表",
-      "name": "汉堡王",
-      "desc": "火烤香气 or 罪恶快感？🤤",
-      "hearts": -1
-    },
-    {
-      "id": "junk4",
-      "category": "垃圾食品列表",
-      "name": "Chicken Finger",
-      "desc": "炸！鸡！手！指！配薯条必胜 🍗",
-      "hearts": -0.5
-    },
-    {
-      "id": "junk5",
-      "category": "垃圾食品列表",
-      "name": "Popeyes",
-      "desc": "路易斯安那炸鸡的正义 ⚔️🍗🔥",
-      "hearts": 1
+      "name": "自制水果酸酸乳",
+      "desc": "鲜切水果 + 手工酸奶，酸酸甜甜好滋味",
+      "hearts": 1,
+      "img": "images/drink4.jpg"
     }
   ]
 }
