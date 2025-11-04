@@ -27,8 +27,7 @@ body{margin:0;background:#fafafa;color:#111;font-family:-apple-system,BlinkMacSy
 .cart-bottom{padding:12px 14px;border-top:1px solid #eee;display:grid;gap:10px}
 #orderNotes{min-height:64px;border:1px solid #ddd;border-radius:10px;padding:10px}
 .cart-totals{display:grid;gap:6px;justify-items:end}
-
-/* Modal for order options */
+/* Modal */
 .modal{position:fixed;inset:0;display:none;z-index:12000}
 .modal.show{display:block}
 .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.4)}
